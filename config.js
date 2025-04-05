@@ -21,14 +21,14 @@ const fsm = require('fs'); if (fsm.existsSync('config.env')) require('dotenv').c
 ╚═╝░░░░░╚═╝╚═════╝░ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗠𝗥 𝗗𝗜𝗟𝗔 𝗢𝗙𝗖
 */
 
-SESSION_ID: process.env.SESSION_ID || "", 
-MONGODB: process.env.MONGODB || "",
+SESSION_ID: process.env.SESSION_ID || "MONEY-HEIST-MD-plQHDSBA#u-yGxa_l2WqNeWtIcDdwiiQcU-yg_BRZ4SIi5DW250E-DILALK", 
+MONGODB: process.env.MONGODB || "mongodb+srv://likik95693:s6sWh4qR0nrLTsJl@cluster0.vbesb.mongodb.net/",
 HEROKU_API: process.env.HEROKU_API || "HRKU-ed5c6fb8-14b9-4e21-b652-0df45300750f",
 OWNER_NUMBER:process.env.OWNER_NUMBER || "",
 
 //Github Workflows Deploy කරනව නම් පමනක් පහත Env යෙදිය යුතුය!
-GITHUB_TOKEN: process.env.GITHUB_TOKEN || "",
-YOUR_REPO:process.env.YOUR_REPO || "",
+GITHUB_TOKEN: process.env.GITHUB_TOKEN || "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",
+YOUR_REPO:process.env.YOUR_REPO || "https://github.com/gunawathii/Pahan/",
 
 
 MAX_SIZE: 500,DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO};
